@@ -1,0 +1,159 @@
+/*!!!!! FILMES !!!!*/
+
+/*!!!!! BACKGROUND !!!!!*/
+    div#faixa{ /*cabeçalho*/
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        /*padding: 10px*/
+        height: 10%;
+        justify-content: center;
+    }
+
+    .corpofilme{ /*fundo*/
+        margin: 0 auto;
+        text-align: left;
+        background: linear-gradient(90deg, rgb(15, 15, 15)5%, rgb(46, 0, 83)85%);
+    }
+
+
+/*!!!!! CONTEÚDO DO CABEÇALHO !!!!!*/
+    .corpofilme img{ /*imagem cisney canto da tela*/
+        padding-top: 10px;
+        width: 130px;
+        height: 80px;
+        margin-left: 30px;
+        
+    }
+
+    .cabecalho h2{ /*frase embaixo da logo*/
+        color:rgb(255, 255, 255) ;
+        font-size: 15px;
+        font-family: inherit;
+        margin: 0 auto;
+        position: relative;
+        text-align: left;
+        margin-left: 30px; 
+        margin-bottom: 10px;
+    }
+
+    /*!!!!! BOTÕES DO CABEÇALHO !!!!!*/
+        nav#menu ul{ /*botoes*/
+            list-style: none;
+            text-transform: none;
+            position: center;
+            text-align: left;
+        }
+
+        nav#menu li{ /*background botão cabeçalho*/
+            display: inline-block;
+            background-color:rgb(90, 11, 105);
+            padding: 7px;
+            transition: background-color 1s;
+            left:15%;
+            top: -70px;
+            text-align: center;
+            position: relative;
+            border-radius: 20px;
+            align-items: center;
+            margin: 1px;
+        }
+
+        nav#menu li:hover{ /*cor de transição do botão*/
+            background-color: rgb(170, 38, 223);
+            text-align: center;
+        }
+
+        nav#menu a{ /*frases dos botoes do cabeçalho*/
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            font-family: Avenir-World-for-Disney-Demi,sans-serif;
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            padding: 100px;
+        }
+
+/*!!!!! EQUIPES !!!!!*/
+
+
+  .item img{
+    width: 500px;
+    height: 200px;
+    margin-left: 5px;
+    border-radius: 30px;
+  }
+
+/*!!!!! IMAGENS DOS FILMES !!!!!*/
+    nav#catalogotodo img:hover{  /*efeitos imagens filmes*/
+        border-radius: 4px;
+        box-shadow: rgba(255, 255, 255, 0.69) 0px 26px 30px -10px, rgba(255, 255, 255, 0.73) 0px 16px 10px -10px;
+        cursor: pointer;
+        transition-property: transform, box-shadow;
+        border: white 30px;
+        border-radius: 5px; 
+    }
+
+    .catalogotodo h4{  /*textos acima dos filmes*/
+        color: aliceblue;
+        font-family: Avenir-World-for-Disney-Demi,sans-serif;
+        font-size: 20px;
+        letter-spacing: .11px;
+        line-height: 1.4;  
+        margin-left: 33px; 
+        margin-bottom: -1.5%;    
+    }
+
+    .filmecarrossel img{ /*imagem dos filmes - primeira fileira*/
+        height: 300px;
+        width: 200px;
+        margin: 30px;
+        box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.501), 0px ;
+        border-radius: 5px;
+    }
+
+    .filmecarrossel2 img{ /*imagem dos filmes - segunda fileira*/
+        height: 300px;
+        width: 200px;
+        margin: 30px;
+        box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.501), 0px ;  
+        border-radius: 5px;
+    }
+
+    .filmecarrossel3 img{ /*imagem dos filmes - terceira fileira*/
+        height: 300px;
+        width: 200px;
+        margin: 30px;
+        border-radius: 5px;
+        box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.501), 0px ;
+    }
+
+    .filmecarrossel4 img{ /*imagem dos filmes - quarta fileira*/
+        height: 300px;
+        width: 200px;
+        margin: 30px;
+        border-radius: 5px;
+        box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.501), 0px ;
+    }
+
+    .perfilfilme img{
+        border-radius: 50px;
+    }
+
+
+/*!!!!! RODAPÉ !!!!!*/
+    .rodape{ /*rodapé*/
+        color: rgb(190, 148, 198);
+        text-align: center;
+        margin: 20px 0;
+        padding: 20px 5px;
+        text-align: center;
+        background: #000000;
+        bottom: 0;
+        left: 0;
+        position: relative fixed;
+        width: 99.5%;
+    }
+
+
+
+/*box-shadow: 5px 5px 10px rgba(255, 254, 254, 0.308), -5px 0 rgb(0, 0, 0); - para sombras*/

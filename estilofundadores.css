@@ -1,0 +1,103 @@
+/*!!!!! FILMES !!!!*/
+
+/*!!!!! BACKGROUND !!!!!*/
+div#faixa{ /*cabeçalho*/
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /*padding: 10px*/
+    height: 10%;
+    justify-content: center;
+}
+
+.corpofilme{ /*fundo*/
+    margin: 0 auto;
+    text-align: left;
+    background: linear-gradient(90deg, rgb(15, 15, 15)5%, rgb(46, 0, 83)85%);
+}
+
+
+/*!!!!! CONTEÚDO DO CABEÇALHO !!!!!*/
+.corpofilme img{ /*imagem cisney canto da tela*/
+    padding-top: 10px;
+    width: 130px;
+    height: 80px;
+    margin-left: 30px;
+    
+}
+
+.cabecalho h2{ /*frase embaixo da logo*/
+    color:rgb(255, 255, 255) ;
+    font-size: 15px;
+    font-family: inherit;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    margin-left: 30px; 
+    margin-bottom: 10px;
+}
+
+/*!!!!! BOTÕES DO CABEÇALHO !!!!!*/
+    nav#menu ul{ /*botoes*/
+        list-style: none;
+        text-transform: none;
+        position: center;
+        text-align: left;
+    }
+
+    nav#menu li{ /*background botão cabeçalho*/
+        display: inline-block;
+        background-color:rgb(90, 11, 105);
+        padding: 7px;
+        transition: background-color 1s;
+        left:15%;
+        top: -70px;
+        text-align: center;
+        position: relative;
+        border-radius: 20px;
+        align-items: center;
+        margin: 1px;
+    }
+   
+
+    nav#menu li:hover{ /*cor de transição do botão*/
+        background-color: rgb(170, 38, 223);
+        text-align: center;
+    }
+
+    nav#menu a{ /*frases dos botoes do cabeçalho*/
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: Avenir-World-for-Disney-Demi,sans-serif;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        padding: 100px;
+    }
+
+    .galeria {
+        max-width: 800px; /* largura máxima da galeria */
+        margin: 0 auto; /* centralizar a galeria horizontalmente */
+      }
+      
+      .galeria img {
+        width: 100%; /* ocupar toda a largura disponível */
+        height: auto; /* altura proporcional à largura */
+        display: block; /* remover espaço extra abaixo da imagem */
+        margin-bottom: 50px; /* espaço entre as imagens */
+      }
+
+
+/*!!!!! RODAPÉ !!!!!*/
+    .rodape{ /*rodapé*/
+        color: rgb(190, 148, 198);
+        text-align: center;
+        margin: 20px 0;
+        padding: 20px 5px;
+        text-align: center;
+        background: #000000;
+        bottom: 0;
+        left: 0;
+        position: relative fixed;
+        width: 99.5%;
+    }
+      

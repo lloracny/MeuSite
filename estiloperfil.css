@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Pathway+Extreme:ital,wght@1,100&family=Poppins&family=Schibsted+Grotesk:ital@0;1&display=swap');
+
+*{
+
+    font-family: "Poppins", sans-serif;
+}
+
+.corpoperfil{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url();
+    background: linear-gradient(90deg, rgb(15, 15, 15)5%, rgb(46, 0, 83)85%);
+}
+
+img.logo {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    height: 80px;
+    width: 150px;
+  }
+
+.corpoperfil h1 {
+    font-size: 50px;
+    padding-top: 190px;
+    color: rgb(255, 255, 255);
+}
+
+.tabelaperfil{
+    margin: 0 auto;
+    padding-top: 70px; 
+}
+
+.coluna img{
+    margin-left: 50px;
+}
+
+.coluna h3{
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Avenir-World-for-Disney-Demi,sans-serif;
+    text-decoration-line: none;
+}
+
+/* ----- ANIMAÇÃO DAS IMAGENS ----- */
+.perfil1 img:hover{
+    box-shadow: 5px 5px 30px rgba(140, 0, 255, 0.909), -5px 0 30px rgba(255, 254, 254, 0.308);
+    transition: all 0.5s;
+}
+
+.perfil2 img:hover{
+    box-shadow: 5px 5px 30px rgba(140, 0, 255, 0.909), -5px 0 30px rgba(255, 254, 254, 0.308);
+    transition: all 0.5s;
+}
+
+.perfil3 img:hover{
+    box-shadow: 5px 5px 30px rgba(140, 0, 255, 0.909), -5px 0 30px rgba(255, 254, 254, 0.308);
+    transition: all 0.5s;
+}
+
+.perfil4 img:hover{
+    box-shadow: 5px 5px 30px rgba(140, 0, 255, 0.909), -5px 0 30px rgba(255, 254, 254, 0.308);
+    transition: all 0.5s;
+}
+
+.perfil5 img:hover{
+    box-shadow: 5px 5px 30px rgba(179, 85, 255, 0.909), -5px 0 30px rgba(255, 254, 254, 0.308);
+    transition: all 0.5s;
+}
+
+.perfil6 img:hover{
+    box-shadow: 5px 5px 30px rgba(179, 85, 255, 0.909), -5px 0 30px rgba(255, 254, 254, 0.308);
+    transition: all 0.5s;
+}
+
+
+/* ----- ESTILOS DAS IMAGENS ----- */
+.perfil1 img{
+   display: inline-block;
+   background-color: paleturquoise;
+   height: 250px;
+   width: 250px;
+   border-radius: 250px;
+   border: 3px solid #000000;
+   text-decoration: none;
+    cursor: pointer;
+}
+.perfil2 img{
+   display: inline-block;
+   height: 250px;
+   width: 250px;
+   border-radius: 250px;
+   border: 3px solid #000000;   
+}
+
+.perfil3 img{
+    display: inline-block;
+    background-color: lightpink;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    border: 3px solid #000000;
+}
+
+.perfil4 img{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    border: 3px solid #000000;   
+ }
+
+ .perfil5 img{
+    display: inline-block; 
+    background-color: lightpink;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    border: 3px solid #000000;  
+ }
+
+ .perfil6 img{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    border: 3px solid #000000;  
+ }
+
+
+
+
+
+
+
